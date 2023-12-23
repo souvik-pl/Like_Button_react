@@ -1,0 +1,31 @@
+:root {
+    /* light mode colors */
+    --white: white;
+    --purple: #6200EE;
+    --black: black;
+
+
+    /* dark mode colors */
+    --gray: #1F1F1F;
+    --dark_gray: #101010;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.light {
+    --font_color1: var(--white);
+    --font_color2: var(--black);
+    --bg_color1: var(--white);
+    --bg_color2: var(--purple);
+}
+
+.dark {
+    --font_color1: var(--white);
+    --font_color2: var(--white);
+    --bg_color1: var(--dark_gray);
+    --bg_color2: var(--gray);
+}

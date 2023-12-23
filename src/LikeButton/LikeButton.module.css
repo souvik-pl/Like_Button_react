@@ -1,0 +1,32 @@
+.btnContainer {
+    width: 110px;
+    height: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 3px solid gray;
+    font-size: 18px;
+    color: gray;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnContainer span {
+    margin-left: 7px;
+}
+
+.btnContainer:hover {
+    border-color: red;
+    color: red;
+}
+
+.btnLiked {
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+
+.btnLiked:hover {
+    color: white;
+}
